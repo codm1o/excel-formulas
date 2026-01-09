@@ -1,0 +1,4 @@
+# Fórmula para colocar a primeira letra maiúscula no Excel
+
+=MAIÚSCULA(ESQUERDA(B2;1)) & MINÚSCULA(DIREITA(B2;NÚM.CARACT(B2)-1))
+
